@@ -9,7 +9,7 @@ permissions:
   id-token: write
   contents: write
 
-# GLOBAL ENV: Only GitHub secrets or constants
+# GLOBAL ENV: Only GitHub secrets or constant
 env:
   ARTIFACTORY_URL: ${{ secrets.ARTIFACT_URL }}
   SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
