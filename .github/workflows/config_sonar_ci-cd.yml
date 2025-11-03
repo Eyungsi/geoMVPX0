@@ -131,7 +131,7 @@ jobs:
         run: |
           docker build -t geo_app:${{ github.sha }} .
       
-      # Trivy Scan for Vulnerabilities
+      # Trivy Scan for Vulnerabilitiese
       - name: Scan Docker image with Trivy
         uses: aquasecurity/trivy-action@master
         with:
