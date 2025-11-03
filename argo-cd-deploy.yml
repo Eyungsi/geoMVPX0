@@ -1,5 +1,5 @@
 # this file is used to deploy ArgoCD in the cluster
-# and to deploy the application using ArgoCD modified
+# and to deploy the application using ArgoCD workchanges
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
