@@ -1,8 +1,4 @@
-FROM openjdk:17-jdk-slim
-
+FROM eclipse-temurin:17-jre
 EXPOSE 8087
-ENV APP_HOME /usr/src/app
-COPY target/*.jar $APP_HOME/app.jar
-WORKDIR $APP_HOME
-
+COPY target/*.jar app.jar
 CMD ["java", "-jar", "app.jar"]
