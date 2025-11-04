@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim  # Use slim version for smaller size
+FROM openjdk:17-jdk-slim
 
 EXPOSE 8087
 ENV APP_HOME /usr/src/app
